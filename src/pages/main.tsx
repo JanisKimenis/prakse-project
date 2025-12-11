@@ -18,40 +18,42 @@ export default function Reductor(){
 				<div id="blocks" style={{gridRow: "1", borderBottomStyle: "solid", borderColor: "black", borderWidth: "1px"}}>
 					<h3>Figures</h3>
 					<table>
-						<tr>
-							<td>
-								<button id="arrowButton">
-									I <!-- 'Seit j'ab'ut att'els ar fig'uru -->
-								</button>
-							</td>
-							<td>
-								<button id="squareButton">
-									П <!-- 'Seit j'ab'ut att'els ar fig'uru -->
-								</button>
-							</td>
-							<td>
-								<button id="circleButton">
-									O <!-- 'Seit j'ab'ut att'els ar fig'uru -->
-								</button>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<button id="treangleButton">
-									^ <!-- 'Seit j'ab'ut att'els ar fig'uru -->
-								</button>
-							</td>
-							<td>
-								<button id="pentagonButton">
-									* <!-- 'Seit j'ab'ut att'els ar fig'uru -->
-								</button>
-							</td>
-							<td>
-								<button id="hexagonButton">
-									Ж <!-- 'Seit j'ab'ut att'els ar fig'uru -->
-								</button>
-							</td>
-						</tr>
+						<tbody>
+							<tr>
+								<td>
+									<button id="arrowButton">
+										I {/* `Seit j`ab`ut att`els ar fig`uru */}
+									</button>
+								</td>
+								<td>
+									<button id="squareButton">
+										П {/* `Seit j`ab`ut att`els ar fig`uru */}
+									</button>
+								</td>
+								<td>
+									<button id="circleButton">
+										O {/* `Seit j`ab`ut att`els ar fig`uru */}
+									</button>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<button id="triangleButton">
+										^ {/* `Seit j`ab`ut att`els ar fig`uru */}
+									</button>
+								</td>
+								<td>
+									<button id="pentagonButton">
+										* {/* `Seit j`ab`ut att`els ar fig`uru */}
+									</button>
+								</td>
+								<td>
+									<button id="hexagonButton">
+										Ж {/* `Seit j`ab`ut att`els ar fig`uru */}
+									</button>
+								</td>
+							</tr>
+						</tbody>
 					</table>
 				</div>
 				<div id="hierarchy" style={{gridRow: "2", borderTopStyle: "solid", borderColor: "black", borderWidth: "1px"}}>
@@ -69,22 +71,22 @@ export default function Reductor(){
 			</div>
 			<div id="right" style={{gridColumn: "3", borderStyle: "solid", borderColor: "black", borderWidth: "2px"}}>
 				<h3>Properties</h3>
-				<div id="arrowProp" class="prop" style={{display: "none"}}>
+				<div id="arrowProp" className="prop" style={{display: "none"}}>
 
 				</div>
-				<div id="squareProp" class="prop" style={{display: "none"}}>
+				<div id="squareProp" className="prop" style={{display: "none"}}>
 
 				</div>
-				<div id="treangleProp" class="prop" style={{display: "none"}}>
+				<div id="triangleProp" className="prop" style={{display: "none"}}>
 
 				</div>
-				<div id="pentaProp" class="prop" style={{display: "none"}}>
+				<div id="pentagonProp" className="prop" style={{display: "none"}}>
 
 				</div>
-				<div id="hexaProp" class="prop" style={{display: "none"}}>
+				<div id="hexagonProp" className="prop" style={{display: "none"}}>
 
 				</div>
-				<div id="circleProp" class="prop" style={{display: "none"}}>
+				<div id="circleProp" className="prop" style={{display: "none"}}>
 
 				</div>
 			</div>
