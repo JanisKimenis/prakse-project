@@ -24,3 +24,115 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#body {
+  display: grid;
+  grid-template-columns: 320px 1fr 320px;
+  height: 100vh;
+}
+
+#left,
+#right {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+#left {
+  grid-column: 1;
+}
+
+#right {
+  grid-column: 3;
+}
+
+#blocks {
+  border-bottom: 1px solid black;
+  padding: 12px;
+}
+
+#hierarchy {
+  border-top: 1px solid black;
+  padding: 12px;
+  overflow-y: auto;
+}
+
+#center {
+  grid-column: 2;
+  border: 2px solid black;
+  position: relative;
+}
+
+#center h3 {
+  margin: 8px;
+}
+
+#canvas {
+  width: 100%;
+  height: calc(100% - 32px);
+  display: block;
+}
+
+#blocks button {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+#list {
+  padding: 0;
+  margin: 0;
+}
+
+#list li {
+  margin-bottom: 4px;
+}
+
+.prop {
+  display: none;
+}
+
+/* prieks themes black and white */
+:root {
+  --bg-main: #ffffff;
+  --bg-panel: #f5f5f5;
+  --text-main: #171717;
+  --border-color: #000000;
+  --button-bg: #ffffff;
+}
+
+body.dark {
+  --bg-main: #0a0a0a;
+  --bg-panel: #1a1a1a;
+  --text-main: #ededed;
+  --border-color: #444;
+  --button-bg: #2a2a2a;
+}
+
+body {
+  background: var(--bg-main);
+  color: var(--text-main);
+}
+
+#left,
+#right,
+#center {
+  background: var(--bg-panel);
+  border-color: var(--border-color);
+}
+
+button {
+  background: var(--button-bg);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+}
+
+/* input laukiem kas ir figuru elementiem */
+.input {
+  @apply w-full px-2 py-1 border rounded text-sm;
+}
+
+.apply-btn {
+  @apply w-full py-1 mt-1 border rounded hover:bg-gray-200 dark:hover:bg-gray-700;
+}
+

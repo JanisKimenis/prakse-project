@@ -1,0 +1,13 @@
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Toggle pogaaaaaaaa */
+#themeToggle {
+  margin-top: 12px;
+  padding: 6px 10px;
+}
