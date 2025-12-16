@@ -72,22 +72,137 @@ export default function Reductor(){
 			<div id="right" style={{gridColumn: "3", borderStyle: "solid", borderColor: "black", borderWidth: "2px"}}>
 				<h3>Properties</h3>
 				<div id="arrowProp" className="prop" style={{display: "none"}}>
-
+					<label>Start X:</label>
+					<input type="number" id="startX">
+					<label>Start Y:</label>
+					<input type="number" id="startY">
+					<hr>
+					<label>End X:</label>
+					<input type="number" id="endX">
+					<label>End Y:</label>
+					<input type="number" id="endY">
+					<hr>
+					<label>Color:</label>
+					<input type="color" id="lineColor">
+					<label>Width:</label>
+					<input type="number" id="lineWidth">
+					<hr>
+					<button>Apply</button>
 				</div>
 				<div id="squareProp" className="prop" style={{display: "none"}}>
-
+					<label>X:</label>
+					<input type="number" id="coordinateX">
+					<label>Y:</label>
+					<input type="number" id="coordinateY">
+					<hr>
+					<label>Width:</label>
+					<input type="number" id="figureWidth">
+					<label>Heigth:</label>
+					<input type="number" id="figureHeight">
+					<hr>
+					<label>Line color:</label>
+					<input type="color" id="lineColor">
+					<label>Line width:</label>
+					<input type="number" id="lineWidth">
+					<hr>
+					<label>Fill color:</label>
+					<input type="color" id="fillColor">
+					<label>Transparency</label>
+					<input type="number" id="fillTransparency" min="0" max="100">
+					<hr>
+					<button>Apply</button>
 				</div>
 				<div id="triangleProp" className="prop" style={{display: "none"}}>
-
+					<label>X:</label>
+					<input type="number" id="coordinateX">
+					<label>Y:</label>
+					<input type="number" id="coordinateY">
+					<hr>
+					<label>Width:</label>
+					<input type="number" id="figureWidth">
+					<label>Heigth:</label>
+					<input type="number" id="figureHeight">
+					<hr>
+					<label>Line color:</label>
+					<input type="color" id="lineColor">
+					<label>Line width:</label>
+					<input type="number" id="lineWidth">
+					<hr>
+					<label>Fill color:</label>
+					<input type="color" id="fillColor">
+					<label>Transparency</label>
+					<input type="number" id="fillTransparency" min="0" max="100">
+					<hr>
+					<button>Apply</button>
 				</div>
 				<div id="pentagonProp" className="prop" style={{display: "none"}}>
-
+					<label>X:</label>
+					<input type="number" id="coordinateX">
+					<label>Y:</label>
+					<input type="number" id="coordinateY">
+					<hr>
+					<label>Width:</label>
+					<input type="number" id="figureWidth">
+					<label>Heigth:</label>
+					<input type="number" id="figureHeight">
+					<hr>
+					<label>Line color:</label>
+					<input type="color" id="lineColor">
+					<label>Line width:</label>
+					<input type="number" id="lineWidth">
+					<hr>
+					<label>Fill color:</label>
+					<input type="color" id="fillColor">
+					<label>Transparency</label>
+					<input type="number" id="fillTransparency" min="0" max="100">
+					<hr>
+					<button>Apply</button>
 				</div>
 				<div id="hexagonProp" className="prop" style={{display: "none"}}>
-
+					<label>X:</label>
+					<input type="number" id="coordinateX">
+					<label>Y:</label>
+					<input type="number" id="coordinateY">
+					<hr>
+					<label>Width:</label>
+					<input type="number" id="figureWidth">
+					<label>Heigth:</label>
+					<input type="number" id="figureHeight">
+					<hr>
+					<label>Line color:</label>
+					<input type="color" id="lineColor">
+					<label>Line width:</label>
+					<input type="number" id="lineWidth">
+					<hr>
+					<label>Fill color:</label>
+					<input type="color" id="fillColor">
+					<label>Transparency</label>
+					<input type="number" id="fillTransparency" min="0" max="100">
+					<hr>
+					<button>Apply</button>
 				</div>
 				<div id="circleProp" className="prop" style={{display: "none"}}>
-
+					<label>X:</label>
+					<input type="number" id="coordinateX">
+					<label>Y:</label>
+					<input type="number" id="coordinateY">
+					<hr>
+					<label>Width:</label>
+					<input type="number" id="figureWidth">
+					<label>Heigth:</label>
+					<input type="number" id="figureHeight">
+					<hr>
+					<label>Line color:</label>
+					<input type="color" id="lineColor">
+					<label>Line width:</label>
+					<input type="number" id="lineWidth">
+					<hr>
+					<label>Fill color:</label>
+					<input type="color" id="fillColor">
+					<label>Transparency</label>
+					<input type="number" id="fillTransparency" min="0" max="100">
+					<hr>
+					<button>Apply</button>
 				</div>
 			</div>
 		</div>
