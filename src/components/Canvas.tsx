@@ -48,6 +48,7 @@ export const Canvas = () => {
         }
     }, []);
 
+    
     const saveState = useCallback((canvas: FabricCanvas) => {
         const json = JSON.stringify(canvas.toJSON());
         setHistory((prev) => [...prev.slice(-19), json]);
