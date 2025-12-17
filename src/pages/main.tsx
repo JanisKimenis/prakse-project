@@ -71,138 +71,138 @@ export default function Reductor(){
 			</div>
 			<div id="right" style={{gridColumn: "3", borderStyle: "solid", borderColor: "black", borderWidth: "2px"}}>
 				<h3>Properties</h3>
-				<div id="arrowProp" className="prop" style={{display: "none"}}>
-					<label>Start X:</label>
-					<input type="number" id="startX" />
-					<label>Start Y:</label>
-					<input type="number" id="startY" />
+				<div id="arrowProp" className="prop" style={{display: "none", gridTemplateRows: "32px 8px 32px 8px 32px 8px 32px"}}>
+					<label style={{width: "72px", gridRow: "1"}}>Start X:</label>
+					<input type="number" id="startX" style={{width: "72px", gridRow: "1"}} />
+					<label style={{width: "72px", gridRow: "1"}}>Start Y:</label>
+					<input type="number" id="startY" style={{width: "72px", gridRow: "1"}} />
 					<hr />
-					<label>End X:</label>
-					<input type="number" id="endX" />
-					<label>End Y:</label>
-					<input type="number" id="endY" />
+					<label style={{width: "72px", gridRow: "3"}}>End X:</label>
+					<input type="number" id="endX" style={{width: "72px", gridRow: "3"}} />
+					<label style={{width: "72px", gridRow: "3"}}>End Y:</label>
+					<input type="number" id="endY" style={{width: "72px", gridRow: "3"}} />
 					<hr />
-					<label>Color:</label>
-					<input type="color" id="arrowColor" />
-					<label>Width:</label>
-					<input type="number" id="arrowWidth" />
+					<label style={{width: "72px", gridRow: "5"}}>Color:</label>
+					<input type="color" id="arrowColor" style={{width: "72px", gridRow: "5"}} />
+					<label style={{width: "72px", gridRow: "5"}}>Width:</label>
+					<input type="number" id="arrowWidth" style={{width: "72px", gridRow: "5"}} />
 					<hr />
-					<button id="applyArrow">Apply</button>
+					<button id="applyArrow" style={{width: "72px", gridRow: "7"}}>Apply</button>
 				</div>
-				<div id="squareProp" className="prop" style={{display: "none"}}>
-					<label>X:</label>
-					<input type="number" id="squareCoordinateX" />
-					<label>Y:</label>
-					<input type="number" id="squareCoordinateY" />
+				<div id="squareProp" className="prop" style={{display: "none", gridTemplateRows: "32px 8px 32px 8px 32px 8px 32px 8px 32px"}}>
+					<label style={{width: "72px", gridRow: "1"}}>X:</label>
+					<input type="number" id="squareCoordinateX" style={{width: "72px", gridRow: "1"}} />
+					<label style={{width: "72px", gridRow: "1"}}>Y:</label>
+					<input type="number" id="squareCoordinateY" style={{width: "72px", gridRow: "1"}} />
 					<hr />
-					<label>Width:</label>
-					<input type="number" id="squareWidth" />
-					<label>Heigth:</label>
-					<input type="number" id="squareHeight" />
+					<label style={{width: "72px", gridRow: "3"}}>Width:</label>
+					<input type="number" id="squareWidth" style={{width: "72px", gridRow: "3"}} />
+					<label style={{width: "72px", gridRow: "3"}}>Heigth:</label>
+					<input type="number" id="squareHeight" style={{width: "72px", gridRow: "3"}} />
 					<hr />
-					<label>Line color:</label>
-					<input type="color" id="squareLineColor" />
-					<label>Line width:</label>
-					<input type="number" id="squareLineWidth" />
+					<label style={{width: "72px", gridRow: "5"}}>Line color:</label>
+					<input type="color" id="squareLineColor" style={{width: "72px", gridRow: "5"}} />
+					<label style={{width: "72px", gridRow: "5"}}>Line width:</label>
+					<input type="number" id="squareLineWidth" style={{width: "72px", gridRow: "5"}} />
 					<hr />
-					<label>Fill color:</label>
-					<input type="color" id="squareFillColor" />
-					<label>Transparency</label>
-					<input type="number" id="squareFillTransparency" min="0" max="100" />
+					<label style={{width: "72px", gridRow: "7"}}>Fill color:</label>
+					<input type="color" id="squareFillColor" style={{width: "72px", gridRow: "7"}} />
+					<label style={{width: "72px", gridRow: "7"}}>Transparency</label>
+					<input type="number" id="squareFillTransparency" min="0" max="100" style={{width: "72px", gridRow: "7"}} />
 					<hr />
-					<button id="applySquare">Apply</button>
+					<button id="applySquare" style={{width: "72px", gridRow: "9"}}>Apply</button>
 				</div>
-				<div id="triangleProp" className="prop" style={{display: "none"}}>
-					<label>X:</label>
-					<input type="number" id="triangleCoordinateX" />
-					<label>Y:</label>
-					<input type="number" id="triangleCoordinateY" />
+				<div id="triangleProp" className="prop" style={{display: "none", gridTemplateRows: "32px 8px 32px 8px 32px 8px 32px 8px 32px"}}>
+					<label style={{width: "72px", gridRow: "1"}}>X:</label>
+					<input type="number" id="triangleCoordinateX" style={{width: "72px", gridRow: "1"}} />
+					<label style={{width: "72px", gridRow: "1"}}>Y:</label>
+					<input type="number" id="triangleCoordinateY" style={{width: "72px", gridRow: "1"}} />
 					<hr />
-					<label>Width:</label>
-					<input type="number" id="triangleWidth" />
-					<label>Heigth:</label>
-					<input type="number" id="triangleHeight" />
+					<label style={{width: "72px", gridRow: "3"}}>Width:</label>
+					<input type="number" id="triangleWidth" style={{width: "72px", gridRow: "3"}} />
+					<label style={{width: "72px", gridRow: "3"}}>Heigth:</label>
+					<input type="number" id="triangleHeight" style={{width: "72px", gridRow: "3"}} />
 					<hr />
-					<label>Line color:</label>
-					<input type="color" id="triangleLineColor" />
-					<label>Line width:</label>
-					<input type="number" id="triangleLineWidth" />
+					<label style={{width: "72px", gridRow: "5"}}>Line color:</label>
+					<input type="color" id="triangleLineColor" style={{width: "72px", gridRow: "5"}} />
+					<label style={{width: "72px", gridRow: "5"}}>Line width:</label>
+					<input type="number" id="triangleLineWidth" style={{width: "72px", gridRow: "5"}} />
 					<hr />
-					<label>Fill color:</label>
-					<input type="color" id="triangleFillColor" />
-					<label>Transparency</label>
-					<input type="number" id="triangleFillTransparency" min="0" max="100" />
+					<label style={{width: "72px", gridRow: "7"}}>Fill color:</label>
+					<input type="color" id="triangleFillColor" style={{width: "72px", gridRow: "7"}} />
+					<label style={{width: "72px", gridRow: "7"}}>Transparency</label>
+					<input type="number" id="triangleFillTransparency" min="0" max="100" style={{width: "72px", gridRow: "7"}} />
 					<hr />
-					<button id="applyTriangle">Apply</button>
+					<button id="applyTriangle" style={{width: "72px", gridRow: "9"}}>Apply</button>
 				</div>
-				<div id="pentagonProp" className="prop" style={{display: "none"}}>
-					<label>X:</label>
-					<input type="number" id="pentagonCoordinateX" />
-					<label>Y:</label>
-					<input type="number" id="pentagonCoordinateY" />
+				<div id="pentagonProp" className="prop" style={{display: "none", gridTemplateRows: "32px 8px 32px 8px 32px 8px 32px 8px 32px"}}>
+					<label style={{width: "72px", gridRow: "1"}}>X:</label>
+					<input type="number" id="pentagonCoordinateX" style={{width: "72px", gridRow: "1"}} />
+					<label style={{width: "72px", gridRow: "1"}}>Y:</label>
+					<input type="number" id="pentagonCoordinateY" style={{width: "72px", gridRow: "1"}} />
 					<hr />
-					<label>Width:</label>
-					<input type="number" id="pentagonWidth" />
-					<label>Heigth:</label>
-					<input type="number" id="pentagonHeight" />
+					<label style={{width: "72px", gridRow: "3"}}>Width:</label>
+					<input type="number" id="pentagonWidth" style={{width: "72px", gridRow: "3"}} />
+					<label style={{width: "72px", gridRow: "3"}}>Heigth:</label>
+					<input type="number" id="pentagonHeight" style={{width: "72px", gridRow: "3"}} />
 					<hr />
-					<label>Line color:</label>
-					<input type="color" id="pentagonLineColor" />
-					<label>Line width:</label>
-					<input type="number" id="pentagonLineWidth" />
+					<label style={{width: "72px", gridRow: "5"}}>Line color:</label>
+					<input type="color" id="pentagonLineColor" style={{width: "72px", gridRow: "5"}} />
+					<label style={{width: "72px", gridRow: "5"}}>Line width:</label>
+					<input type="number" id="pentagonLineWidth" style={{width: "72px", gridRow: "5"}} />
 					<hr />
-					<label>Fill color:</label>
-					<input type="color" id="pentagonFillColor" />
-					<label>Transparency</label>
-					<input type="number" id="pentagonFillTransparency" min="0" max="100" />
+					<label style={{width: "72px", gridRow: "7"}}>Fill color:</label>
+					<input type="color" id="pentagonFillColor" style={{width: "72px", gridRow: "7"}} />
+					<label style={{width: "72px", gridRow: "7"}}>Transparency</label>
+					<input type="number" id="pentagonFillTransparency" min="0" max="100" style={{width: "72px", gridRow: "7"}} />
 					<hr />
-					<button id="applyPentagon">Apply</button>
+					<button id="applyPentagon" style={{width: "72px", gridRow: "9"}}>Apply</button>
 				</div>
-				<div id="hexagonProp" className="prop" style={{display: "none"}}>
-					<label>X:</label>
-					<input type="number" id="hexagonCoordinateX" />
-					<label>Y:</label>
-					<input type="number" id="hexagonCoordinateY" />
+				<div id="hexagonProp" className="prop" style={{display: "none", gridTemplateRows: "32px 8px 32px 8px 32px 8px 32px 8px 32px"}}>
+					<label style={{width: "72px", gridRow: "1"}}>X:</label>
+					<input type="number" id="hexagonCoordinateX" style={{width: "72px", gridRow: "1"}} />
+					<label style={{width: "72px", gridRow: "1"}}>Y:</label>
+					<input type="number" id="hexagonCoordinateY" style={{width: "72px", gridRow: "1"}} />
 					<hr />
-					<label>Width:</label>
-					<input type="number" id="hexagonWidth" />
-					<label>Heigth:</label>
-					<input type="number" id="hexagonHeight" />
+					<label style={{width: "72px", gridRow: "3"}}>Width:</label>
+					<input type="number" id="hexagonWidth" style={{width: "72px", gridRow: "3"}} />
+					<label style={{width: "72px", gridRow: "3"}}>Heigth:</label>
+					<input type="number" id="hexagonHeight" style={{width: "72px", gridRow: "3"}} />
 					<hr />
-					<label>Line color:</label>
-					<input type="color" id="hexagonLineColor" />
-					<label>Line width:</label>
-					<input type="number" id="hexagonLineWidth" />
+					<label style={{width: "72px", gridRow: "5"}}>Line color:</label>
+					<input type="color" id="hexagonLineColor" style={{width: "72px", gridRow: "5"}} />
+					<label style={{width: "72px", gridRow: "5"}}>Line width:</label>
+					<input type="number" id="hexagonLineWidth" style={{width: "72px", gridRow: "5"}} />
 					<hr />
-					<label>Fill color:</label>
-					<input type="color" id="hexagonFillColor" />
-					<label>Transparency</label>
-					<input type="number" id="hexagonFillTransparency" min="0" max="100" />
+					<label style={{width: "72px", gridRow: "7"}}>Fill color:</label>
+					<input type="color" id="hexagonFillColor" style={{width: "72px", gridRow: "7"}} />
+					<label style={{width: "72px", gridRow: "7"}}>Transparency</label>
+					<input type="number" id="hexagonFillTransparency" min="0" max="100" style={{width: "72px", gridRow: "7"}} />
 					<hr />
-					<button id="applyHexagon">Apply</button>
+					<button id="applyHexagon" style={{width: "72px", gridRow: "9"}}>Apply</button>
 				</div>
-				<div id="circleProp" className="prop" style={{display: "none"}}>
-					<label>X:</label>
-					<input type="number" id="circleCoordinateX" />
-					<label>Y:</label>
-					<input type="number" id="circleCoordinateY" />
+				<div id="circleProp" className="prop" style={{display: "none", gridTemplateRows: "32px 8px 32px 8px 32px 8px 32px 8px 32px"}}>
+					<label style={{width: "72px", gridRow: "1"}}>X:</label>
+					<input type="number" id="circleCoordinateX" style={{width: "72px", gridRow: "1"}} />
+					<label style={{width: "72px", gridRow: "1"}}>Y:</label>
+					<input type="number" id="circleCoordinateY" style={{width: "72px", gridRow: "1"}} />
 					<hr />
-					<label>Width:</label>
-					<input type="number" id="circleWidth" />
-					<label>Heigth:</label>
-					<input type="number" id="circleHeight" />
+					<label style={{width: "72px", gridRow: "3"}}>Width:</label>
+					<input type="number" id="circleWidth" style={{width: "72px", gridRow: "3"}} />
+					<label style={{width: "72px", gridRow: "3"}}>Heigth:</label>
+					<input type="number" id="circleHeight" style={{width: "72px", gridRow: "3"}} />
 					<hr />
-					<label>Line color:</label>
-					<input type="color" id="circleLineColor" />
-					<label>Line width:</label>
-					<input type="number" id="circleLineWidth" />
+					<label style={{width: "72px", gridRow: "5"}}>Line color:</label>
+					<input type="color" id="circleLineColor" style={{width: "72px", gridRow: "5"}} />
+					<label style={{width: "72px", gridRow: "5"}}>Line width:</label>
+					<input type="number" id="circleLineWidth" style={{width: "72px", gridRow: "5"}} />
 					<hr />
-					<label>Fill color:</label>
-					<input type="color" id="circleFillColor" />
-					<label>Transparency</label>
-					<input type="number" id="circleFillTransparency" min="0" max="100" />
+					<label style={{width: "72px", gridRow: "7"}}>Fill color:</label>
+					<input type="color" id="circleFillColor" style={{width: "72px", gridRow: "7"}} />
+					<label style={{width: "72px", gridRow: "7"}}>Transparency</label>
+					<input type="number" id="circleFillTransparency" min="0" max="100" style={{width: "72px", gridRow: "7"}} />
 					<hr />
-					<button id="applyCircle">Apply</button>
+					<button id="applyCircle" style={{width: "72px", gridRow: "9"}}>Apply</button>
 				</div>
 			</div>
 		</div>
